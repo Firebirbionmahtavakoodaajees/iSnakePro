@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://4nomvcvn0xpy"]
+
+[node name="Main" type="Node2D" unique_id=1696791533]
+
+[node name="Snake" type="Node2D" parent="." unique_id=1434133087]
+
+[node name="Timer" type="Timer" parent="." unique_id=1731211787]
+wait_time = 0.15
+autostart = true
+
+[node name="Apple" type="Node2D" parent="." unique_id=1033793232]
