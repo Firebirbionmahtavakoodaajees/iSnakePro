@@ -51,6 +51,7 @@ Devlog 2:
 - D to move right
 
 **Known Bugs**
+
 **#Todo** If you press two buttons too fast you can reverse the movement. Don't do this. This will be fixed after I've finished the game.
 
 **Else**
