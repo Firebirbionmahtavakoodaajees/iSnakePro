@@ -54,9 +54,12 @@ Devlog 2:
 **#Todo** If you press two buttons too fast you can reverse the movement. Don't do this. This will be fixed after I've finished the game.
 
 **Else**
+
 Open an issue if any problems.
 
 ### Sample Pictures
+#Todo
+===
 
 ### Advertising and accessing
 **#Todo** itch.io
