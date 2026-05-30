@@ -16,6 +16,8 @@ The game is made with godot. Development happened with .Net activated Godot, but
 - Optimized, not going to contain more than 1 set of nesting.
 - Process will be fully documented down below:
 
+---
+
 ### Making process
 
 DevLog 1:
@@ -37,6 +39,8 @@ Devlog 2:
 - Trying new things next time. This time I didn't fully understand the container I wrote, the way why did I write a box with size if I made a box already.
 - **#Todo** Will figure out a better collision method using the collision2d when done with the game.
 
+---
+
 ### Documentation
 
 **The porject is still in alpha phase! Please report all bugs found :)**
@@ -50,6 +54,8 @@ Devlog 2:
 - S to move down
 - D to move right
 
+---
+
 **Known Bugs**
 
 **#Todo** If you press two buttons too fast you can reverse the movement. Don't do this. This will be fixed after I've finished the game.
@@ -58,9 +64,13 @@ Devlog 2:
 
 Open an issue if any problems.
 
+---
+
 ### Sample Pictures
 #Todo
 ===
+
+---
 
 ### Advertising and accessing
 **#Todo** itch.io
