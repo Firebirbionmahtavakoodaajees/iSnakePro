@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://fvp2i6h16b5v"]
+
+[ext_resource type="Texture2D" uid="uid://bccdbfliwxgtp" path="res://Assets/snake.png" id="1_16tbv"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pox6b"]
+size = Vector2(224, 224)
+
+[node name="Snake" type="CharacterBody2D" unique_id=518399180]
+
+[node name="SnakeCircle" type="Sprite2D" parent="." unique_id=1645734905]
+texture = ExtResource("1_16tbv")
+
+[node name="Collision" type="CollisionShape2D" parent="." unique_id=1660718388]
+shape = SubResource("RectangleShape2D_pox6b")
