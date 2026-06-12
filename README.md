@@ -58,7 +58,7 @@ Devlog 2:
 
 **Known Bugs**
 
-**#Todo** If you press two buttons too fast you can reverse the movement. Don't do this. This will be fixed after I've finished the game.
+**#Todo** I fixed it lmao
 
 **Else**
 
