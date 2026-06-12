@@ -4,6 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://fvp2i6h16b5v" path="res://Scenes/snake.tscn" id="2_bo1nx"]
 [ext_resource type="Script" uid="uid://7n4ldt1005qr" path="res://Scripts/snake.gd" id="3_8gbba"]
 [ext_resource type="PackedScene" uid="uid://c87iqibgo3qvr" path="res://Scenes/map_walls.tscn" id="4_jjvhh"]
+[ext_resource type="PackedScene" uid="uid://cdr6n2q366kms" path="res://Scenes/ui.tscn" id="5_kry3j"]
 
 [node name="Main" type="Node2D" unique_id=1696791533]
 script = ExtResource("1_jjgbg")
@@ -20,3 +21,5 @@ autostart = true
 zoom = Vector2(-0.4, -0.4)
 
 [node name="MapWalls" parent="." unique_id=1895637092 instance=ExtResource("4_jjvhh")]
+
+[node name="UI" parent="." unique_id=744465150 instance=ExtResource("5_kry3j")]

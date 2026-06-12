@@ -5,6 +5,7 @@ const SnakeSize = 225
 var Direction = 1
 var PrevDirection = 3
 
+#Area where the snake is alive aka playarea!!
 # Centers the snake box around the snake node's origin
 @onready var snake_rect = Rect2(global_position - Vector2(SnakeSize, SnakeSize) / 2, Vector2(SnakeSize, SnakeSize))
 # Centers the wall box around the MapWalls node's origin
@@ -40,8 +41,8 @@ func MoveTick() -> void:
 	elif Direction == 3: #3 = Left
 		position.x += SnakeSize
 	else: #4 = Up
-		position.y +=SnakeSize
-		
+		position.y += SnakeSize
+
 	PrevDirection = Direction
 	
 	snake_rect.position = global_position
