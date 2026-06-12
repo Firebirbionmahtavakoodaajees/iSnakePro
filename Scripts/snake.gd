@@ -10,13 +10,12 @@ var PrevDirection = 3
 # Centers the wall box around the MapWalls node's origin
 @onready var wall_rect = Rect2($"../MapWalls".global_position - Vector2(6*SnakeSize, 6*SnakeSize) / 2, Vector2(7*SnakeSize, 7*SnakeSize))
 
-
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	timer.timeout.connect(MoveTick)
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	if Input.is_action_just_pressed("Right"):
 		if PrevDirection != 3:
 			Direction = 1
@@ -34,17 +33,13 @@ func _process(delta: float) -> void:
 
 func MoveTick() -> void:
 
-	if Direction == 1:
-		PrevDirection == 1
+	if Direction == 1: #1 = Right
 		position.x += -SnakeSize
-	elif Direction == 2:
-		PrevDirection == 2
+	elif Direction == 2: #2 = Down
 		position.y += -SnakeSize
-	elif Direction == 3:
-		PrevDirection == 3
+	elif Direction == 3: #3 = Left
 		position.x += SnakeSize
-	else:
-		PrevDirection == 4
+	else: #4 = Up
 		position.y +=SnakeSize
 		
 	PrevDirection = Direction
@@ -53,5 +48,3 @@ func MoveTick() -> void:
 	
 	if not snake_rect.intersects(wall_rect):
 		get_tree().quit()
-
-	
