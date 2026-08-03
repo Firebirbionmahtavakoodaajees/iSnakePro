@@ -1,3 +1,6 @@
+As of now, I am studying for my matriculation exam. For now, the projects development has been brought to a halt and will be continued in 1 year. For now, the project is archived and will resume development as soon as it gets its deserved love. For now the game is in a working state, though the snake does not multiply. The project will take around 2 months to finish, so I'll allocate that for when I get that amount of time.
+---
+
 # iSnakePro
 
 The best Snake game made by me :)
